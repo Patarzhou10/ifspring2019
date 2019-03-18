@@ -1,0 +1,137 @@
+body {
+	font font-family: 'Frank Ruhl Libre';
+	margin-bottom: 0px;
+}
+
+h1{
+	font-family: 'Lobster';
+	font-size: 70px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+	padding-bottom: 0px
+	margin:auto;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+#top h2{
+	font-family: 'Crimson' serif;
+	font-size: 22px;
+	font-weight: lighter;
+	font-style: oblique;
+	text-align: center;
+	filter: opacity(70%);
+	padding-top: 0px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: auto;
+	margin-top: 0px;
+	margin-bottom: 20px;
+
+}
+
+#pic img {
+  margin: auto;
+  margin-left: -10px;
+  display: inline-block;
+  background-size: cover;
+  text-align: center;
+  width: 110%;
+  height: 50%;
+  padding: 0 0px 0 0;
+
+}
+
+#ul {
+	font-family: 'Crimson' serif;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: left;
+	line-height: 30px;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 40px;
+	border-spacing: 1px;
+}
+
+#ingredients{
+	display: inline-block;
+	margin-top: 60px;
+	font-family: 'Crimson';
+	font-size: 16px;
+	line-height: 30px;
+	padding-left: 60px;
+	padding-right: 40px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+#ingredients h2 {
+	display: block;
+	font-family: 'Lobster';
+	font-weight: lighter;
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-align: center;
+	text-decoration: overline;
+	padding-right: 30px;
+}
+
+#instructions {
+	margin-top: 15px;
+	font-family: 'Crimson';
+	font-size: 16px;
+	font-weight: lighter;
+	text-align: center;
+	
+}
+
+#instructions h2 {
+	font-family: 'Lobster';
+	font-weight: lighter;
+	font-size: 40px;
+	letter-spacing: 2px;
+	margin-bottom: 50px;
+	text-decoration-line: overline;
+}
+
+#instructions img{
+	margin-left: auto;
+  	margin-right: auto;
+ 	display: block;
+  	background-size: contain;
+ 	width: 50%;
+  	height: 100%;
+  	object-fit: cover;
+}
+
+#instructions p {
+	display:inline-block;
+	font-size: 18px;
+	font font-weight: bolder;
+	margin: auto;
+	margin-top: 15px;
+	margin-left: 90px;
+	margin-right: 90px;
+}
+
+a {
+	display: inline-block;
+	font-family: 'Lobster';
+    text-decoration: none;
+    font-size: 20px;
+    color: purple;
+    filter: opacity(60%);
+    text-decoration: center;
+    margin:auto;
+    margin-left: 180px;
+    margin-top: 40px;
+}
+
+a:hover {
+    color: black;
+}
