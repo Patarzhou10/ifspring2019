@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Image Format Comparisons</title>
+		<style>
+			body {
+				font-family: "Arial", sans-serif;
+				padding: 30px;
+			}
+
+			h1 {
+				margin: 0 0 6px 0;
+			}
+
+			h2 {
+				margin: 0 0 30px 0;
+			}
+
+			table {
+			}
+
+			td, th {
+				background-color: #eee;
+				padding: 30px;
+				margin: 2px;
+				text-align: center;
+				vertical-align: middle;
+			}
+
+			.blank {
+				background-color: transparent;
+			}
+
+			.label {
+				background-color: #3997b6;
+				color: #fff;
+				font-weight: bold;
+				font-size: 16px;
+			}
+
+			.label.optimized {
+				background-color: #39b64e;
+			}
+
+			.note {
+				font-size: 14px;
+				font-weight: normal;
+				font-style: italic;
+			}
+
+			div.note {
+				margin-top: 5px;
+			}
+
+			img {
+				width: 300px;
+				height: 300px;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<h1>Image Optimization Grid</h1>
+		<h2>Patrick Zhou</h2>
+
+		<table>
+			<tr>
+				<td class="label">Original</td>
+				<td><img src="images/sign_original.jpg" alt="Sign - Original"><div class="note">115KB</div></td>
+				<td><img src="images/hanks_original.jpg" alt="Tom Hanks - Original"><div class="note">49.4KB</div></td>
+				<td><img src="images/wings_original.svg" alt="Wings - Original"><div class="note">5.08KB</div></td>
+			</tr>
+			<tr>
+				<td class="label">GIF 16 <span class="note">(with transparency)</td>
+				<td><img src="images/s16.gif" alt="sign-16.gif"></td>
+				<td><img src="images/h16.gif" alt="Hanks-16.gif"></td>
+				<td><img src="images/w16.gif" alt="wings-16.gif"></td>
+			</tr>
+			<tr>
+				<td class="label">GIF 256 <span class="note">(with transparency)</td>
+				<td><img src="images/s256.gif" alt="sign-256.gif"></td>
+				<td><img src="images/h256.gif" alt="Hanks-256.gif"></td>
+				<td><img src="images/w256.gif" alt="wings-256.gif"></td>
+			</tr>
+			<tr>
+				<td class="label">JPEG Low <span class="note">(10%)</span></td>
+				<td><img src="images/s10%.jpg" alt="sign-10%.jpg"></td>
+				<td><img src="images/h10%.jpg" alt="Hanks-10%.jpg"></td>
+				<td><img src="images/w10%.jpg" alt="wings-10%.jpg"></td>
+			</tr>
+			<tr>
+				<td class="label">JPEG Very High <span class="note">(80%)</span></td>
+				<td><img src="images/s80%.jpg" alt="sign-80%.jpg"></td>
+				<td><img src="images/h80%.jpg" alt="Hanks-80%.jpg"></td>
+				<td><img src="images/w80%.jpg" alt="wings-80%.jpg"></td>
+			</tr>
+			<tr>
+				<td class="label">PNG-8</td>
+				<td><img src="images/s8.png" alt="sign-8.png"></td>
+				<td><img src="images/h8.png" alt="Hanks-8.png"></td>
+				<td><img src="images/w8.png" alt="wing-8.png"></td>
+			</tr>
+			<tr>
+				<td class="label">PNG-24 <span class="note">(without transparency)</span></td>
+				<td><img src="images/s24.png" alt="sign-24.png"></td>
+				<td><img src="images/h24.png" alt="Hanks-24.png"></td>
+				<td><img src="images/w24.png" alt="wings-24.png"></td>
+			</tr>
+			<tr>
+				<td class="label">PNG-24 <span class="note">(with transparency)</span></td>
+				<td><img src="images/s24transparent.png" alt="sign-24transparent.png"></td>
+				<td><img src="images/h24transparent.png" alt="Hanks-24transparent.png"></td>
+				<td><img src="images/w24transparent.png" alt="wings-24transparent.png"></td>
+			</tr>
+			<tr>
+				<td class="label">SVG</td>
+				<td><img src="images/s.svg" alt="sign.SVG"></td>
+				<td><img src="images/h.svg" alt="Hanks.SVG"></td>
+				<td><img src="images/w.svg" alt="wings.SVG"></td>
+			</tr>
+			<tr>
+				<td class="label optimized">Optimized <span class="note">(you choose)</span></td>
+				<td><img src="images/s2.gif" alt="sign.gif"></td>
+				<td><img src="images/h2.gif" alt="Hanks.gif"></td>
+				<td><img src="images/w2.gif" alt="wings.gif"></td>
+			</tr>
+		</table>
+
+
+	</body
+</html>
