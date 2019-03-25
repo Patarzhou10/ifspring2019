@@ -1,0 +1,23 @@
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.comp img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px
+}
+
+.phone img {
+     width: 20%;
+    display: block;
+    margin: auto;
+    margin-bottom: 130px;
+}
+    
+    
+   
