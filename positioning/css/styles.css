@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-size: 100px;
+}
+#float {
+    display: block;
+    float: right;
+}
+
+#callout {
+    position: absolute;
+    top: 850px;
+    right:180px;
+}
+
+#green {
+    background-color: green;
+    right: 0px;
+    top: 0px;
+    position: fixed;
+    z-index: 200;
+}
+
+#last {
+	position: relative;
+}
+
+#red {
+    background-color: red;
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#black{
+    background-color: black;
+    position: absolute;
+    z-index: 50;
+    left: 50%;
+	top: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    transform: translate(-50%, -50%);
+}
