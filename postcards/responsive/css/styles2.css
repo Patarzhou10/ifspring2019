@@ -23,6 +23,10 @@ h1 {
     color: white;   
 }
 
+#quote2 {
+        width: 70%;
+    }
+
 @media (max-width: 1255px) {
     #quote2 {
         width: 40%;
