@@ -1,0 +1,61 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url("images/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#quote1 {
+    width: 60%;
+    margin-top: 400px;
+    margin-left: 60px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 350;
+    color: white;   
+}
+
+@media (max-width: 1255px) {
+    #quote1 {
+        width: 40%;
+    }
+    
+    h1 {
+        font-size: 45px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 793px) {
+    h1 {
+     font-size: 40px;
+     margin-top: 420px;
+}
+    
+@media (max-width: 708px) {
+    h1 {
+     font-size: 35px;
+}
+    
+@media (max-width: 613px) {
+    h1 {
+     font-size: 30px;
+     margin-top: 420px;
+}
+    
+@media (max-height: 736px) {
+    h1 {
+     font-size: 25px;
+     margin-top: 430px;
+     margin-bottom: 100px;
+     margin-left: -40px;
+        
+}
