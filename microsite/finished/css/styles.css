@@ -43,7 +43,7 @@ a:hover {
     background-color: #4B697B;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 5937px) {
    .topbar a {
         display: block; 
     }
